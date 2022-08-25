@@ -52,9 +52,8 @@ document.addEventListener("DOMContentLoaded",e=>{
 let searching=(value)=>{
     drinks.innerHTML=" ";
     const search=images.filter(item=>item.name.toLowerCase().includes(value.toLowerCase()))
-    if(searching=includes(value)){
-        search.map(item=>{displayImage(item.src,item.name)})
-    }
+        search.map(item=>displayImage(item.src,item.name))
+    
     search.map(item=>{displayImage(item.src,item.name)})
 }
 button1.addEventListener("keyup",e=>{

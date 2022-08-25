@@ -22,6 +22,11 @@
   color: white;
 }
 
+.rigth a:hover {
+  background-color: rgba(232, 27, 75, 0.893);
+  border-radius: 5px;
+}
+
 .drinks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -44,7 +49,7 @@
   cursor: pointer;
 }
 
-.po, .word {
+.po, .inimage, .line, .word, .rigth a:hover {
   text-align: center;
   color: white;
 }
@@ -78,18 +83,13 @@
   margin-left: 100px;
 }
 
-.line hr {
+.line {
   width: 99%;
   padding-left: 1%;
-  font-weight: bold;
-  color: white;
+  height: 1px;
+  padding-bottom: 10px;
 }
 
-.jg {
-  color: white;
-  margin-left: 20%;
-}
-
-.b {
+.bt {
   margin-left: 30%;
 }/*# sourceMappingURL=cock.css.map */

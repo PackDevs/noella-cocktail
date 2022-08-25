@@ -27,6 +27,11 @@ height: auto;
   color: $w;
   
 }
+.rigth a:hover{
+  @extend.po;
+ background-color:rgba(232, 27, 75, 0.893);
+ border-radius: 5px;
+}
 .drinks{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -76,17 +81,17 @@ color:rgb(211, 175, 182);
 .log{
   margin-left: 100px;
 }
-.line hr{
+.line {
+  @extend.po;
   width: 99%;
   padding-left: 1%;
-  font-weight: bold;
-  color: white;
+  height: 1px;
+ padding-bottom: 10px;
 }
-.jg{
-  color: white;
-  margin-left: 20%;
+.inimage{
+  @extend.po;
 }
-.b{
+.bt{
   margin-left: 30%; 
 }
 
