@@ -25,15 +25,17 @@
 .drinks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgba(51, 0, 0, 0.795);
 }
 
 .drinks img {
   height: 100%;
-  width: 100%;
+  width: 30%;
 }
 
 .drinks .card {
   background-color: rgba(51, 0, 0, 0.795);
+  border: none;
   color: rgba(255, 255, 255, 0.253);
 }
 
@@ -42,7 +44,52 @@
   cursor: pointer;
 }
 
-p {
-  margin-left: 100px;
+.po, .word {
   text-align: center;
+  color: white;
+}
+
+.word {
+  margin-right: 200px;
+  margin-top: 60px;
+}
+
+.word a {
+  text-decoration: none;
+  color: rgb(211, 175, 182);
+}
+
+.word a:hover {
+  color: rgb(243, 177, 97);
+}
+
+.rigt {
+  float: right;
+  margin-top: -350px;
+  margin-right: -70px;
+}
+
+.lef {
+  margin-top: 50px;
+  float: left;
+}
+
+.log {
+  margin-left: 100px;
+}
+
+.line hr {
+  width: 99%;
+  padding-left: 1%;
+  font-weight: bold;
+  color: white;
+}
+
+.jg {
+  color: white;
+  margin-left: 20%;
+}
+
+.b {
+  margin-left: 30%;
 }/*# sourceMappingURL=cock.css.map */

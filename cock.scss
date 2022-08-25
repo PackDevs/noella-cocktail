@@ -1,6 +1,8 @@
 
 $margin-left:1000px;
 $bg:rgba(51, 0, 0, 0.795);
+$w:white;
+$no:none;
 .content{
   background-color:$bg;
 height: auto;
@@ -17,28 +19,28 @@ height: auto;
 @extend.nav;
   grid-gap: 20px;
   margin-left: 20px;
-  
-  // text-align: center;
   margin-top:-20px;
   
 }
 .rigth a{
-  text-decoration: none;
-  color: white;
+  text-decoration: $no;
+  color: $w;
   
 }
 .drinks{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color:$bg;
   
 }
 .drinks img{
   height: 100%;
-  width: 100%;
+  width: 30%;
   
 }
 .drinks .card{
   background-color:$bg;
+  border: none;
   color:rgba(255, 255, 255, 0.253);
 
 }
@@ -46,17 +48,45 @@ height: auto;
 color: rgb(243, 177, 97);
 cursor: pointer;
 }
-p{
-  // margin-left: $margin-left;
+.po{
   text-align: center;
+  color: $w;
 }
-#button2{
-  @extend.p;
-  margin-left: $margin-left;
+.word{
+  @extend.po;
+  margin-right:200px;
+  margin-top: 60px;
 }
-.text h1{
-  padding-left:2000px;
+.word a{
+text-decoration: $no;
+color:rgb(211, 175, 182);
+}
+.word a:hover{
+  color: rgb(243, 177, 97);
+}
+.rigt{
+  float: right;
+  margin-top:-350px;
+  margin-right: -70px;
+}
+.lef{
+  margin-top:50px;
+  float: left;
+}
+.log{
+  margin-left: 100px;
+}
+.line hr{
+  width: 99%;
+  padding-left: 1%;
+  font-weight: bold;
   color: white;
 }
-
+.jg{
+  color: white;
+  margin-left: 20%;
+}
+.b{
+  margin-left: 30%; 
+}
 
